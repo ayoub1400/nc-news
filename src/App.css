@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: lightgray;
+  margin-top: 175px;
+}
+
+.Header {
+  position: fixed;
+  background-color: gray;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Rouge Script';
+  font-size: 70px;
+  margin: 0;
+  padding: 20px;
+}
