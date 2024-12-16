@@ -4,12 +4,18 @@ import ArticleBox from "./ArticleBox"
 
 const ArticleList = () => {
     const [articles, setArticles] = useState([])
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         getArticles().then((data) => {
             setArticles(data)
+            setLoading(false)
         })
     }, [])
+
+    if (loading) {
+        return <p style={{fontSize: 40}}>Loading articles...</p>
+    }
 
     return (
          <ul className="articles-list">

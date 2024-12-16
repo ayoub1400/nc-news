@@ -1,11 +1,11 @@
 import ShowArticle from "./ShowArticle"
 
 const ArticleBox = ({ article }) => {
-return (
+  return (
     <div className="article-box">
-        <ShowArticle article={article}/>
+        <ShowArticle article={article} />
     </div>
-)
+  )
 }
 
 export default ArticleBox
