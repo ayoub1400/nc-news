@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { getSingleArticle } from "../api"
+import Comments from "./components/Comments"
 
 const SingleArticle = () => {
   const { articleId } = useParams()
@@ -26,6 +27,7 @@ const SingleArticle = () => {
       <img src={article.article_img_url} width={200} alt="Article" />
       <p>Author: {article.author}</p>
       <p>Votes: {article.votes}</p>
+       <Comments articleId={articleId} />
     </div>
   )
 }

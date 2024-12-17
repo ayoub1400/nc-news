@@ -16,13 +16,13 @@ body {
   margin: 0;
   padding: 20px;
 }
-.article-box {
+.article-box, .comment-box {
   background-color: grey;
   padding: 30px;
   border-radius: 30px;
   margin: 20px;
  }
  
- .article-box:hover {
+ .article-box:hover, .comment-box:hover {
    box-shadow: 0px 0px 15px 10px rgba(0, 0,0, 0.2);
  }
