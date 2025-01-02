@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { getSingleArticle } from "../api"
-import Comments from "./components/Comments"
+import { getSingleArticle } from "../../api"
+import Comments from "./Comments"
 
 const SingleArticle = () => {
   const { articleId } = useParams()
