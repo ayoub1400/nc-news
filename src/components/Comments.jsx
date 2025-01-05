@@ -1,21 +1,8 @@
-import { useEffect, useState } from "react";
-import { getCommentsByArticleId } from "../../api";
-
-const Comments = ({ articleId }) => {
-    const [comments, setComments] = useState([])
-    const [loading, setLoading] = useState(true)
+const Comments = ({ comments }) => {
     
-    useEffect(() => {
-        getCommentsByArticleId(articleId)
-          .then((data) => {
-            setComments(data)
-            setLoading(false)
-          })
-      }, [articleId])
-    
-      if (loading) { 
-        return <p style={{fontSize: 40}}>Loading comments...</p>
-      }
+  if (!comments.length) {
+    return <p style={{ fontSize: 40 }}>No comments yet...</p>;
+  }
     
       return (
         <div className="comments-section">
