@@ -5,6 +5,10 @@ body {
   margin-top: 175px;
 }
 
+.post-comment {
+margin-bottom: 30px;
+}
+
 .Header {
   position: fixed;
   background-color: gray;

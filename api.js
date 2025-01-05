@@ -28,3 +28,15 @@ export const getSingleArticle = (articleId) => {
       return data.article
     })
   }
+
+  export const postComment = (articleId, comment) => {
+    return api
+      .post(`/articles/${articleId}/comments`, {
+        body: comment.body,
+        username: comment.author,
+      })
+      .then(({ data }) => {
+        console.log(data.comment)
+        return data.comment
+      })
+  }
