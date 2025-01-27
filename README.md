@@ -1,8 +1,38 @@
-# React + Vite
+# Northcoders News Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Deployed Version
 
-Currently, two official plugins are available:
+This is the frontend for a news website, which you can try for yourself [here]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This uses the API I created previously which you can view [here](https://ayoubs-news.onrender.com/api)
+
+--- 
+
+## 📋 Features
+
+The homepage displays all the articles and clicking on the title of the article will take you to that specific article
+**Once you are on a specific article you can:**
+- Vote on the article
+- View the comments
+- Add your own comments using the prebuilt users 
+
+---
+
+## 🔗 Getting Started
+
+**Feel free to run the project locally by folowwing these steps:**
+- Clone the repo by running git clone https://github.com/ayoub1400/be-nc-news.git
+- Run npm i or npm install to install all necessary dependencies
+- Run npm run dev and click the hyperlink to see the app
+
+---
+
+## 🖥️ Versions
+
+| Package name | Version |
+| ------------ | ------- |
+| Node.js      | v22.9.0 |
+
+---
+
+This portfolio project was created as part of a Software Engineering Bootcamp provided by [Northcoders](https://northcoders.com/)

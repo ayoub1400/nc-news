@@ -29,6 +29,9 @@ const CommentForm = ({ articleId, onCommentPosted }) => {
 
   return (
     <div className="post-comment">
+      <p>
+        Default user to comment with: grumpy19
+      </p>
     <form onSubmit={handleSubmit} className="comment-form">
       <h3>Leave a Comment</h3>
       {error && <p className="error">{error}</p>}

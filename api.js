@@ -40,3 +40,9 @@ export const getSingleArticle = (articleId) => {
         return data.comment
       })
   }
+
+  export const deleteComment = (commentId) => {
+    return api.delete(`/comments/${commentId}`).then(() => {
+      return commentId
+    })
+  }
