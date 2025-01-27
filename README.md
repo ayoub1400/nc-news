@@ -2,7 +2,7 @@
 
 ## 🚀 Deployed Version
 
-This is the frontend for a news website, which you can try for yourself [here]()
+This is the frontend for a news website, which you can try for yourself [here](https://ayoub-news.netlify.app/)
 
 This uses the API I created previously which you can view [here](https://ayoubs-news.onrender.com/api)
 
